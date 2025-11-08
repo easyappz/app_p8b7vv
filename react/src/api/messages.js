@@ -11,6 +11,6 @@ export const sendMessage = async (text) => {
 };
 
 export const getOnlineCount = async () => {
-  const response = await instance.get('/api/online/');
+  const response = await instance.get('/api/online-count/');
   return response.data;
 };
